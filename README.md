@@ -31,7 +31,7 @@ The characteristics were all pairwise positively correlated, except for the Gene
 This part of the project looks further into the top three predictors of happiness: GDP, health and family. For each of the three pairs of these predictors a heat map is built, where the x and y coordinates correspond to the two predictors in question and the color corresponds to happiness. What was found is that as any two of these three predictors increase, there is an unmistakeable rise in happiness. Furthermore, when any of the three predictors is compared to happiness by region (where a region corresponds to multiple countries), a similar trend is seen within each region: as the characteristic improves, happiness increases.
 
 ### What I Learned in Hindsight
-I completed this project in 2018. Looking back on it now, with an extra year of experience in data science, I would do a number of things differently, such as: <br /> <br />
+
 •Write my code under the functional programming paradigm; a lot of duplication of code could be avoided (for example when building and plotting various similar linear regression models - the current code blocks for these are long and messy). <br />
 •More appropriately use whitespace in my code to make it more human-readable. <br /> 
 •Use more descriptive variable-naming conventions. <br /> 
